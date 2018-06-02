@@ -1,20 +1,32 @@
 <template>
-  <div>
+  <div class="container">
     <h1>Login</h1>
-    <div>
-      <form>
-        <label>Account:</label>
-        <input type="text">
-        <label>Password:</label>
-        <input type="text">
-        <input type="submit">
-      </form>
+    <div class="formBox">
+      <login-form/>
     </div>
   </div>
 </template>
 
 <script>
+import LoginForm from './LoginForm';
+
 export default {
   name: 'login',
+  components: {
+    LoginForm,
+  },
 };
 </script>
+
+<style scoped lang="scss">
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .formBox {
+    width: 360px;
+  }
+}
+</style>
