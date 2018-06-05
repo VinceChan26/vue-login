@@ -1,0 +1,29 @@
+{
+  "login": {
+    "code": 200,
+    "result":
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+      "user":
+      {
+        "account": "vince",
+        "name": "vince",
+        "active": 1
+      }
+    }
+  },
+  "logout": {
+    "code": 200
+  },
+  "profile":
+  {
+    "code": 200,
+    "result": {
+      "user":
+      {
+        "name": "vince",
+        "active": 1
+      }
+    }
+  }
+}

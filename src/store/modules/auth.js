@@ -1,4 +1,8 @@
-import { login, logout } from '@/api/auth';
+import {
+  login,
+  logout,
+  getAuthUser,
+} from '@/api/auth';
 import { setToken, removeToken } from '@/directive/auth';
 
 const state = {
@@ -48,7 +52,7 @@ const actions = {
     return false;
   },
   logout: async ({ dispatch }) => {
-    const { data } = await logout();
+    await logout();
     dispatch('clearUser');
     return true;
   },
@@ -58,6 +62,10 @@ const actions = {
   clearUser: ({ commit }) => {
     commit('CLEAR_USER');
     removeToken();
+  },
+  getAuthUser: async ({ commit }) => {
+    const { data } = await getAuthUser();
+    commit('SET_USER', data.result.user);
   },
 };
 

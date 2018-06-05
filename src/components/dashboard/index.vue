@@ -24,7 +24,7 @@ export default {
         confirmButtonText: 'Yes',
         cancelButtonText: 'No',
         type: 'warning',
-        center: true
+        center: true,
       }).then(() => {
         const isLogout = this.logout();
         if (isLogout) {

@@ -62,7 +62,7 @@ export default {
           const { form } = this;
           const isSuccess = await this.login(form);
           if (isSuccess) {
-            this.$router.push('dashboard');
+            this.$router.push('/');
           }
         }
       });

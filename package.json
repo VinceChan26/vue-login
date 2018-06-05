@@ -19,6 +19,7 @@
     "element-ui": "^2.4.0",
     "es6-promise": "^4.2.4",
     "font-awesome": "^4.7.0",
+    "json-server": "^0.13.0",
     "lodash": "^4.17.10",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
