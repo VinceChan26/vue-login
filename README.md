@@ -29,7 +29,7 @@
 	|           ├─ index.vue             // 前台登入
 	|           ├─ loginForm.vue         // 前台登入表單
 	|       ├─ App.vue                   // 頁面入口文件
-	|		├─ config                    	   // 配置
+	|		├─ config                        // 配置
 	|           ├─ http.js               // Axios 攔阻器配置
 	|		├─ directive                     // 共用函數
 	|           ├─ auth.js               // Token 配置文件
