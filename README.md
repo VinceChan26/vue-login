@@ -24,10 +24,10 @@
 	|   │   ├─ auth.js                   // 接口串接文件
 	|   ├─ components                    // 组件
 	|       ├─ dashboard                 // 後台首頁
-	|           |-- index.vue            // 後台頁面
+	|           ├─ index.vue             // 後台頁面
 	|       ├─ login                     // 前台登入首頁
-	|           |-- index.vue            // 前台登入
-  |           |-- loginForm.vue        // 前台登入表單
+	|           ├─ index.vue             // 前台登入
+	|           ├─ loginForm.vue         // 前台登入表單
 	|       ├─ App.vue                   // 頁面入口文件
 	|		├─ config                    	   // 配置
 	|           ├─ http.js               // Axios 攔阻器配置
@@ -36,7 +36,7 @@
 	|		├─ route                         // 路由管理器
 	|           ├─ index.js              // 路由管理配置文件
 	|		├─ store                         // 狀態管理模式
-  |       ├─ modules                   // 狀態管理模組
+	|       ├─ modules                   // 狀態管理模組
 	|           ├─ auth.js               // 登入狀態管理配置文件
 	|       ├─ index.js                  // 狀態管理模式入口
 	|   ├─ main.js                       // 程式入口文件，家載共用模組
