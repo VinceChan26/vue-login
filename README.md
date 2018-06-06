@@ -1,6 +1,6 @@
 # vue-login
 
-> 基於 vue.js, vuex, vue-router, json-server, axios, element-ui 的範例
+> 基於 vue.js, vuex, vue-router, json-server, axios, element-ui 的範例
 
 # Skills
 * <a href="https://vuejs.org/v2/guide/">vue.js</a> 主框架
@@ -29,13 +29,13 @@
 	|           ├─ index.vue             // 前台登入
 	|           ├─ loginForm.vue         // 前台登入表單
 	|       ├─ App.vue                   // 頁面入口文件
-	|		├─ config                        // 配置
+	|		├─ config            // 配置
 	|           ├─ http.js               // Axios 攔阻器配置
-	|		├─ directive                     // 共用函數
+	|		├─ directive         // 共用函數
 	|           ├─ auth.js               // Token 配置文件
 	|		├─ route                         // 路由管理器
 	|           ├─ index.js              // 路由管理配置文件
-	|		├─ store                         // 狀態管理模式
+	|		├─ store             // 狀態管理模式
 	|       ├─ modules                   // 狀態管理模組
 	|           ├─ auth.js               // 登入狀態管理配置文件
 	|       ├─ index.js                  // 狀態管理模式入口
@@ -53,10 +53,10 @@
 # Design Flow
 登入流程：
 1. 檢查狀態：進入頁面或路由變化時檢查是否有登入狀態。
-2. 如果有登入狀態則撈取登入訊息(username) 並儲存，並導向於根目錄`(/)`；若沒有則導向至登入頁`(/login)`。
-3. 在登入頁面，進行輸入驗證。
-4. 登入成功則從後端取出 `token` 訊息保存於 localStorage 中；登入失敗則提示不成功。
-5. 登出時，則進行 localStorage 的屬性移除。
+2. 如果有登入狀態則撈取登入訊息(username) 並儲存，並導向於根目錄`(/)`；若沒有則導向至登入頁`(/login)`。
+3. 在登入頁面，進行輸入驗證。
+4. 登入成功則從後端取出 `token` 訊息保存於 localStorage 中；登入失敗則提示不成功。
+5. 登出時，則進行 localStorage 的屬性移除。
 
 # Build Setup
 
