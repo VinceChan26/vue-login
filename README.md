@@ -20,8 +20,8 @@
 	├─ build                             // webpack配置文件
 	├─ config                            // 項目打包路徑
 	├─ src                               // 程式碼目錄
-      ├─ api                           // API 接口
-      │   ├─ auth.js                   // 接口串接文件
+	|   ├─ api                           // API 接口
+	|   │   ├─ auth.js                   // 接口串接文件
 	|   ├─ components                    // 组件
 	|       ├─ dashboard                 // 後台首頁
 	|           |-- index.vue            // 後台頁面
