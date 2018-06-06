@@ -33,7 +33,7 @@
 	|           ├─ http.js               // Axios 攔阻器配置
 	|		├─ directive         // 共用函數
 	|           ├─ auth.js               // Token 配置文件
-	|		├─ route                         // 路由管理器
+	|		├─ route             // 路由管理器
 	|           ├─ index.js              // 路由管理配置文件
 	|		├─ store             // 狀態管理模式
 	|       ├─ modules                   // 狀態管理模組
